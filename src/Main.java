@@ -50,7 +50,7 @@ public class Main {
         System.out.println("Задание №9");
         int capital2 = 29000;
         int total2 = 0;
-        for ( int m = 0; m < 12; m = m + 1) {
+        for ( int m = 0; m < 12; m = m + 2) {
             total2 = total2 + total2/100;
             total2 = total2 + capital2;
             System.out.println("Месяц " + m + " сумма накоплений составляет " + total2 + " рублей");
